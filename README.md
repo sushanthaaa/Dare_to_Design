@@ -1,7 +1,7 @@
 # Dare_to_Design: Interior Design Consultation Platform
 
 ## Project Overview
-InteriorrConnect is a web application that facilitates interaction between clients and builders for interior design projects. The platform allows users to explore various interior design options and directly contact builders to discuss and finalize their interior design requirements.
+Dare to Design is a web application that facilitates interaction between clients and builders for interior design projects. The platform allows users to explore various interior design options and directly contact builders to discuss and finalize their interior design requirements.
 
 ## Features
 - **User Authentication:** Secure login and registration system for users and builders.
