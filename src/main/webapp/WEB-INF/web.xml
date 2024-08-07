@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>Interior</display-name>
+  
+    <servlet>
+	<servlet-name>usersignup</servlet-name>
+	<servlet-class>usersignup</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>usersignup</servlet-name>
+	<url-pattern>/usersignup</url-pattern>
+	</servlet-mapping>
+	
+	
+	   <servlet>
+	<servlet-name>QuoteApprovalServlet</servlet-name>
+	<servlet-class>QuoteApprovalServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>QuoteApprovalServlet</servlet-name>
+	<url-pattern>/QuoteApprovalServlet</url-pattern>
+	</servlet-mapping>
+	
+		   <servlet>
+	<servlet-name>QuoteServlet</servlet-name>
+	<servlet-class>QuoteServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>QuoteServlet</servlet-name>
+	<url-pattern>/QuoteServlet</url-pattern>
+	</servlet-mapping>
+	
+	 <servlet>
+	<servlet-name>consignup</servlet-name>
+	<servlet-class>consignup</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>consignup</servlet-name>
+	<url-pattern>/consignup</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>mainpage</servlet-name>
+	<servlet-class>mainpage</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>mainpage</servlet-name>
+	<url-pattern>/mainpage</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>quote</servlet-name>
+	<servlet-class>quote</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>quote</servlet-name>
+	<url-pattern>/quote</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+	<servlet-name>upload</servlet-name>
+	<servlet-class>upload</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>upload</servlet-name>
+	<url-pattern>/upload</url-pattern>
+	</servlet-mapping>
+	
+
+  <servlet>
+    <servlet-name>DesignUploaderServlet</servlet-name>
+    <servlet-class>DesignUploaderServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DesignUploaderServlet</servlet-name>
+    <url-pattern>/DesignUploaderServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ServiceServlet</servlet-name>
+    <servlet-class>ServiceServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServiceServlet</servlet-name>
+    <url-pattern>/ServiceServlet</url-pattern>
+  </servlet-mapping>
+	
+		<servlet>
+	<servlet-name>changepassword</servlet-name>
+	<servlet-class>changepassword</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>changepassword</servlet-name>
+	<url-pattern>/changepassword</url-pattern>
+	</servlet-mapping>
+		<servlet>
+	<servlet-name>Login</servlet-name>
+	<servlet-class>Login</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>Login</servlet-name>
+	<url-pattern>/Login</url-pattern>
+	</servlet-mapping>
+	
+			<servlet>
+	<servlet-name>LoginBean</servlet-name>
+	<servlet-class>LoginBean</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>LoginBean</servlet-name>
+	<url-pattern>/LoginBean</url-pattern>
+	</servlet-mapping>
+	
+			<servlet>
+	<servlet-name>LoginDao</servlet-name>
+	<servlet-class>LoginDao</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>LoginDao</servlet-name>
+	<url-pattern>/LoginDao</url-pattern>
+	</servlet-mapping>
+				<servlet>
+	<servlet-name>blogin</servlet-name>
+	<servlet-class>blogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>blogin</servlet-name>
+	<url-pattern>/blogin</url-pattern>
+	</servlet-mapping>
+			<servlet>
+	<servlet-name>LoginServlet</servlet-name>
+	<servlet-class>LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>LoginServlet</servlet-name>
+	<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+    <servlet-name>UserProfileServlet</servlet-name>
+    <servlet-class>UserProfileServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>UserProfileServlet</servlet-name>
+    <url-pattern>/UserProfileServlet</url-pattern>
+</servlet-mapping>
+	
+  <welcome-file-list>
+    <welcome-file>mainpage.jsp</welcome-file>
+    <welcome-file>login.jsp</welcome-file>
+    <welcome-file>signup.jsp</welcome-file>
+  <welcome-file>services.jsp</welcome-file>
+  <welcome-file>quotation.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

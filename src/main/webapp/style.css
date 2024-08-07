@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,600;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    background: #ffffff;
+    padding: 1em 0;
+    box-shadow: 11px 12px 15px 2px #e6e6e6;
+    max-height: 300px;
+}
+
+/* --------------------------------- navbar --------------------------------- */
+
+.logo {
+    margin-right: 0.5em;
+    width: 200px;
+    height: 50px;
+    scale: 2.2;
+}
+
+.nav__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.nav__link {
+    color: darkorange;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.nav__link:hover {
+    opacity: 0.50;
+}
+
+/*.nav__link--button {
+    background: darkorange;
+    color: #fff;
+    padding: 0.45em 2em;
+    border-radius: 10rem;
+}*/
+
+.container2 {
+    width: 85%;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+}
+
+.nav__list--primary {
+    /* IMPORTANT!!!: it will make element centralized */
+    margin: 0 auto;
+}
+
+.nav__item {
+    margin-left: 2em;
+    color: darkorange;
+    font-weight: 700;
+}
+
+
+#active{
+    background: darkorange;
+    color: #fff;
+    padding: 0.45em 2em;
+    border-radius: 10rem;
+}
+
+/* ------------------------------ Landing page ------------------------------ */
+
+.landing-page {
+    width: 100vw;
+    height: 80vh;
+}
+
+.banner {
+    /* background: #b5c3d5; */
+    height: 280px;
+}
+
+.banner > h2,
+.banner .info {
+    font-size: 2.5em;
+    color: #ffffff;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    top: 80px;
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+}
+
+.banner > h1 {
+    font-size: 5em;
+    color: #ffffff;
+    line-height: 50px;
+    position: relative;
+    top: -130px;
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+}
+
+/* ---------------------------------- Form ---------------------------------- */
+
+.form-column {
+    padding: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    background-color: #fff;
+    padding: 20px 20px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.form > input {
+    width: 100%;
+    margin: 10px 0;
+    height: 35px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.form > textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.sec-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.form-submit {
+    width: 100%;
+    background-color: darkorange;
+    border: 0;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    padding: 6px 0;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.language > {
+    width: 30px;
+    height: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.qualifications > {
+    width: 30px;
+    height: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+/* -------------------------------- Quotation ------------------------------- */
+
+.main {
+    margin-bottom: 10px;
+    margin: 0 auto;
+}
+
+.side {
+    margin: 0 auto;
+}
+
+.main,.side {
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.wrapper {
+    display: flex;
+    padding:40px;
+}
+
+select{
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    margin: 10px 0 ;
+    border-width: 1px;
+}
+
+.design-images {
+    width: 150px;
+    height: 150px;
+}
+
+.fomr>select, .fomr>{
+    width: 100%;
+}
+
