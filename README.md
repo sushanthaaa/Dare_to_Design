@@ -25,7 +25,7 @@ The project is organized into the following key files and directories:
 ## Installation and Setup
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/yourusername/InteriorrConnect.git
+   [git clone https://github.com/sushanthaaa/Dare_to_Design.git](https://github.com/sushanthaaa/Dare_to_Design.git)
 
 2. **Navigate to the project directory:**
    ```sh
